@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="cache-control" content="no-cache">
+    <title>Assignment</title>
+    <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
     <meta http-equiv="pragma" content="no-cache">
     <!-- Meta Icon -->
@@ -11,9 +12,11 @@
     <!-- Meta Link -->
     <link href="https://hoangduyit.me" rel="canonical"/>
     <link href="https://hoangduyit.me" hreflang="x-default" rel="alternate"/>
-    <title>Assignment</title>
     <link href="style.css?v=180120211" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="style.js" type="text/javascript"></script>
 </head>
 <body>
 <header id="myHeader">
@@ -32,31 +35,32 @@
     </div>
 </header>
 <div class="container">
-    <div class="header"></div>
+    <div class="header hvr-underline-from-center"></div>
     <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active">Trang chủ</a>
+        <a href="index.html" class="active hvr-underline-from-left">Trang chủ</a>
         <div class="dropdown">
-            <button class="dropbtn">Giới thiệu <i class="fa fa-caret-down"></i></button>
+            <button class="dropbtn hvr-underline-from-left">Giới thiệu <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
-                <a href="about.html">Giới thiệu chung</a>
-                <a href="diagram.html">Sơ đồ tổ chức</a>
-                <a href="library.html">Thư viện</a>
+                <a class="hvr-overline-from-right" href="about.html">Giới thiệu chung</a>
+                <a class="hvr-overline-from-right" href="diagram.html">Sơ đồ tổ chức</a>
+                <a class="hvr-overline-from-right" href="library.html">Thư viện</a>
             </div>
         </div>
-        <a href="contact.html">Liên hệ</a>
-        <a href="feedback.html">Góp ý</a>
-        <a href="faq.html">Hỏi & Đáp</a>
+        <a class="hvr-underline-from-left" href="contact.html">Liên hệ</a>
+        <a class="hvr-underline-from-left" href="feedback.html">Góp ý</a>
+        <a class="hvr-underline-from-left" href="faq.html">Hỏi & Đáp</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="menuFunction()">&#9776;</a>
     </div>
     <div class="article">
         <div class="content">
+            <h1 style="text-transform: uppercase;background-color: #f9fadc;padding: 10px;color: #0067ac !important;">Tin tức</h1>
             <div class="post-article" style="padding: 15px 0px;">
                 <div class="mask1">
                     <div class="thumb1">
-                        <a href="chinh-sach-uu-dai.html"><img class="image" src="images/CoverFB.png"/></a>
+                        <a href="chinh-sach-uu-dai.html"><img class="image hvr-grow" src="images/CoverFB.png"/></a>
                     </div>
                     <div class="list-post" style="width: 100%;margin-left: 0px;text-align: center;">
-                        <div class="title" style="padding: 10px 0 0 0;"><a href="chinh-sach-uu-dai.html">Nhập học ngay – Quà liền tay!</a></div>
+                        <div class="title" style="padding: 15px 0 0 0;"><a href="chinh-sach-uu-dai.html">Nhập học ngay – Quà liền tay!</a></div>
                         <div class="desc">
                             <div class="bbWrapper">Cao đẳng FPT Polytechnic triển khai hàng loạt ưu đãi “khủng” dành cho tân sinh viên nhập học trong tháng 7 – 8/2020 tới đây.
                                                 Theo đó, tân sinh viên khi nhập học tại Cao đẳng FPT Polytechnic sẽ được miễn lệ phí nhập học, nhận ngay một voucher trị giá 1 triệu đồng khi mua laptop tại FPT Shop và bộ quà tặng siêu hot của FPT Polytechnic....</div>
@@ -67,7 +71,7 @@
             <div class="post-article">
                 <div class="mask">
                     <div class="thumb">
-                        <a href="quy-hoc-bong.html"><img class="image" src="images/hocbong.jpg"/></a>
+                        <a href="quy-hoc-bong.html"><img class="image hvr-grow" src="images/hocbong.jpg"/></a>
                     </div>
                     <div class="list-post">
                         <div class="title"><a href="quy-hoc-bong.html">FPT Polytechnic triển khai Quỹ học bổng khởi nghiệp cho tân sinh viên</a></div>
@@ -80,7 +84,7 @@
             <div class="post-article">
                 <div class="mask">
                     <div class="thumb">
-                        <a href="huong-dan-nhap-hoc.html"><img class="image" style="height: 150px;" src="images/hdannhoc1.png"/></a>
+                        <a href="huong-dan-nhap-hoc.html"><img class="image hvr-grow" style="height: 150px;" src="images/hdannhoc1.png"/></a>
                     </div>
                     <div class="list-post">
                         <div class="title"><a href="huong-dan-nhap-hoc.html">FPT Polytechnic triển khai Quỹ học bổng khởi nghiệp cho tân sinh viên</a></div>
@@ -93,7 +97,7 @@
             <div class="post-article">
                 <div class="mask">
                     <div class="thumb">
-                        <a href="nganh-hoc.html"><img class="image" style="height: 150px;" src="images/nganhhoc1.jpg"/></a>
+                        <a href="nganh-hoc.html"><img class="image hvr-grow" style="height: 150px;" src="images/nganhhoc1.jpg"/></a>
                     </div>
                     <div class="list-post">
                         <div class="title"><a href="nganh-hoc.html">Chương trình đào tạo tại trường Cao đẳng FPT Polytechnic</a></div>
@@ -106,7 +110,7 @@
             <div class="post-article">
                 <div class="mask">
                     <div class="thumb">
-                        <a href="nganh-hoc.html"><img class="image" style="height: 150px;" src="images/hocphi.jpg"/></a>
+                        <a href="nganh-hoc.html"><img class="image hvr-grow" style="height: 150px;" src="images/hocphi.jpg"/></a>
                     </div>
                     <div class="list-post">
                         <div class="title"><a href="nganh-hoc.html">Học phí tại Cao đẳng thực hành FPT Polytechnic</a></div>
@@ -117,72 +121,111 @@
                 </div>
             </div>
             <br/><div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0&appId=718808778602748&autoLogAppEvents=1" nonce="jPSbvKZ4"></script>
-<div class="fb-like" data-href="https://hoangduyit.me/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0&appId=718808778602748&autoLogAppEvents=1" nonce="jPSbvKZ4"></script>
+            <div class="fb-like" data-href="https://hoangduyit.me/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+
+            
         </div>
     </div>
     <div class="aside">
         <div class="sidebar">
-            <a class="active" href="hoc-phi.html">Học phí</a>
-            <a href="nganh-hoc.html">Ngành học</a>
-            <a href="chinh-sach-uu-dai.html">Chính sách ưu đãi</a>
-            <a href="huong-dan-nhap-hoc.html">Hướng dẫn nhập học</a>
-            <a href="quy-hoc-bong.html">Quỹ học bổng khởi nghiệp</a>
+            <a class="active hvr-bounce-to-right" href="hoc-phi.html">Học phí</a>
+            <a class="hvr-overline-reveal" href="nganh-hoc.html">Ngành học</a>
+            <a class="hvr-overline-reveal" href="chinh-sach-uu-dai.html">Chính sách ưu đãi</a>
+            <a class="hvr-overline-reveal" href="huong-dan-nhap-hoc.html">Hướng dẫn nhập học</a>
+            <a class="hvr-overline-reveal" href="quy-hoc-bong.html">Quỹ học bổng khởi nghiệp</a>
         </div>
     </div>
 </div>
-<div class="container">
+<div class="backtop">
+    <div><a class="back-to-top"><h4>Trở về đầu trang <i class="fa fa-angle-up" aria-hidden="true"></i></h4></a></div>
 </div>
-    <div class="footer">
-            <p><img src="images/logo-trang.png"/></p>
-            <div style="margin-top: 10px;">
-                <span>
-                    <a href="https://www.facebook.com/fpt.poly">
-                    <img src="images/ico-fb-landing.png"/></a>
-                </span>
-                <span>
-                    <a href="https://www.youtube.com/channel/UCHXm-vzOfAuLucVBKDUfhvQ">
-                    <img src="images/ico-youtube-landing.png"/></a>
-                </span>
-                <span>
-                <a href="http://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Cao_%C4%91%E1%BA%B3ng_Th%E1%BB%B1c_h%C3%A0nh_FPT">
-                    <img src="images/ico-wiki-landing.png"/></a>
-                </span>
-                <span><a href="https://plus.google.com/105027270805907603343/posts?prsrc=3">
-                    <img src="images/ico-google-landing.png"/></a>
-                </span>
-            </div>
-            <div style="color: #f7941d; font-size: 20px; margin-top: 10px; padding-top: 10px;">THÔNG TIN LIÊN HỆ</div>
-            <p style="text-align: center;">Địa chỉ: Toà nhà Innovation lô 24, Quang Trung, Quận 12, Thành phố Hồ Chí Minh</p>
-            <p style="text-align: center;">Điện thoại: (028) 6252 3434 - Hotline: (028) 7308 8800</p>
-			<br/><p><b>FPT Polytechnic</b> © 2021. All rights reserved.</p>
+<div class="footer">
+    <div class="column1">
+        <p><img src="images/logo-trang.png"/></p>
+        <span>
+            <a href="https://www.facebook.com/fpt.poly">
+            <img src="images/ico-fb-landing.png"/></a>
+        </span>
+        <span>
+            <a href="https://www.youtube.com/channel/UCHXm-vzOfAuLucVBKDUfhvQ">
+            <img src="images/ico-youtube-landing.png"/></a>
+        </span>
+        <span>
+        <a href="http://vi.wikipedia.org/wiki/Tr%C6%B0%E1%BB%9Dng_Cao_%C4%91%E1%BA%B3ng_Th%E1%BB%B1c_h%C3%A0nh_FPT">
+            <img src="images/ico-wiki-landing.png"/></a>
+        </span>
+        <span><a href="https://plus.google.com/105027270805907603343/posts?prsrc=3">
+            <img src="images/ico-google-landing.png"/></a>
+        </span>
+        <div style="color: #f7941d; font-size: 20px; margin-top: 10px; padding-top: 10px;">THÔNG TIN LIÊN HỆ</div>
+        <p>Điện thoại: (024) 7300 1955</p>
+        <p>Email: caodang@fpt.edu.vn</p>
+        <p><b>FPT Polytechnic</b> © 2021. All rights reserved.</p>
     </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-circle-up"></i></button>
-    <script src="style.js" type="text/javascript"></script>
-
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
+    <div class="column2">
+        <div class="title-column">HỆ THỐNG CƠ SỞ ĐÀO TẠO</div>
+        <div style="margin-top: 20px;">
+            <u>Cơ sở Hà Nội</u><br/>
+            <span style="text-align:justify;">
+                <i class="fa fa-map-marker" style="color: #f7941d;"></i> Tòa nhà FPT Polytechnic, Phố Trịnh Văn Bô, Nam Từ Liêm, Hà Nội<br>
+                <i class="fa fa-phone-square" style="color: #f7941d;"></i> (024) 7300 1955
+            </span>
+            <div><u style="padding-top: 10px;">Cơ sở Đà Nẵng</u></div>
+            <span style="text-align:justify;">
+                <i class="fa fa-map-marker" style="color: #f7941d;"></i> Số 137 Nguyễn Thị Thập, Phường Hòa Minh, Quận Liên Chiểu, TP. Đà Nẵng<br>
+                <i class="fa fa-phone-square" style="color: #f7941d;"></i> (0236) 3710 999
+            </span>
+            <div><u style="padding-top: 10px;">Cơ sở Cần Thơ</u></div>
+            <span style="text-align:justify;">
+                <i class="fa fa-map-marker" style="color: #f7941d;"></i> Số 288, Nguyễn Văn Linh, Phường An Khánh, Quận Ninh Kiều, Tp. Cần Thơ<br>
+                <i class="fa fa-phone-square" style="color: #f7941d;"></i> (0292) 7300 468
+            </span>
+        </div>
+    </div>
+    <div class="column3">
+        <div class="title-column" style="outline: none;text-indent: -9999px;">HỆ THỐNG CƠ SỞ ĐÀO TẠO</div>
+        <div style="margin-top: 20px;">
+            <div><u>Cơ sở Hồ Chí Minh</u></div>
+            <span style="text-align:justify;">
+                <i class="fa fa-map-marker" style="color: #f7941d;"></i> CS1: 778/B1 Nguyễn Kiệm, Phường 4, Quận Phú Nhuận, TP. Hồ Chí Minh<br>
+                <i class="fa fa-phone-square" style="color: #f7941d;"></i> (028) 62523434<br>
+                <i class="fa fa-map-marker" style="color: #f7941d;"></i> CS2: 391A Nam Kỳ Khởi Nghĩa, Phường 7, Quận 3, TP. Hồ Chí Minh<br>
+                <i class="fa fa-phone-square" style="color: #f7941d;"></i> (028) 62523434<br>
+                <i class="fa fa-map-marker" style="color: #f7941d;"></i> CS3: Toà nhà Innovation lô 24, Quang Trung, Quận 12, TP. Hồ Chí Minh<br>
+                <i class="fa fa-phone-square" style="color: #f7941d;"></i> (028) 62523434
+            </span>
+            <div><u style="padding-top: 10px;">Cơ sở Tây Nguyên</u></div>
+            <span style="text-align:justify;">
+                <i class="fa fa-map-marker" style="color: #f7941d;"></i> Tổ dân phố 8, Phường Tân An, TP. Buôn Mê Thuột, Đắk Lắk<br>
+                <i class="fa fa-phone-square" style="color: #f7941d;"></i> (0262) 355 5678
+            </span>
+        </div>
+    </div>
+</div>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
     window.fbAsyncInit = function() {
-    FB.init({
-        xfbml            : true,
-        version          : 'v9.0'
-    });
+        FB.init({
+            xfbml: true,
+            version: 'v9.0'
+        });
     };
+
     (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
+        js = d.createElement(s);
+        js.id = id;
         js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="107378617301481"
-        theme_color="#0A7CFF"
-        logged_in_greeting="Xin chào! Làm thế nào chúng tôi có thể giúp bạn?"
-        logged_out_greeting="Xin chào! Làm thế nào chúng tôi có thể giúp bạn?">
-    </div>
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat" attribution=setup_tool page_id="107378617301481" theme_color="#0A7CFF"
+    logged_in_greeting="Xin chào! Làm thế nào chúng tôi có thể giúp bạn?"
+    logged_out_greeting="Xin chào! Làm thế nào chúng tôi có thể giúp bạn?">
+</div>
 </body>
 </html>
