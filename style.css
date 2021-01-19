@@ -174,7 +174,7 @@ input[type=submit]:hover {
     .topnav a.icon {float: right;display: block;}
     .sidebar a {text-align: center;float: none;}
     div.list-post{width: auto;margin-left: 0;}
-    body{font-family: Roboto, Arial;font-size: 60%;}
+    body{font-family: Roboto, Arial;font-size: 80%;}
 }
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
@@ -197,7 +197,7 @@ input[type=submit]:hover {
     div.sidebar {display: block}
     div.thumb{width: 100%;}
     div.thumb img {display: block; margin-left: auto; margin-right: auto; width: 70%;}
-    body,.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{font-size: 80%;}{font-family: Roboto, Arial;font-size: 80%;}
+    body,.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{font-family: Roboto, Arial;font-size: 100%;}
     div.logo_header{display: block; margin-left: auto; margin-right: auto; width: 50%;}
     div.logo_header .logo{display: block;vertical-align:auto;height:auto;margin-left: auto; margin-right: auto;width: 50%;}
     div.d-block {display: block!important;}
