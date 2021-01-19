@@ -169,10 +169,12 @@ input[type=submit]:hover {
     margin-top: 6px;
     padding: 10px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {display: none;}
     .topnav a.icon {float: right;display: block;}
     .sidebar a {text-align: center;float: none;}
+    div.list-post{width: auto;margin-left: 0;}
+    body { font-size: 60%; }
 }
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
@@ -181,9 +183,21 @@ input[type=submit]:hover {
     .topnav.responsive .dropdown {float: none;}
     .topnav.responsive .dropdown-content {position: relative;}
     .topnav.responsive .dropdown .dropbtn {display: block;width: 100%;text-align: left;}
-    .sidebar {width: 100%;height: auto;position: relative;}
+    .sidebar a {float: left;}
     div.content {margin-left: 0;}
     .column, input[type=submit] {width: 80%;margin-top: 0;}
+    div.list-post{width: auto;margin-left: 0;text-align: center;}
+    div.list-post .title{padding-top: 10px;;}
+    .footer{display: none;text-align: center;}
+    .hidden-mobile {display: none;}
+    div.footer .column1{width: 100%;}
+    div.container{width: 100%;padding:0;}
+    div.article{width: 100%;}
+    div.aside{display: none;}
+    div.sidebar {display: block}
+    div.thumb{width: 100%;}
+    div.thumb img {display: block; margin-left: auto; margin-right: auto; width: 70%; }
+    body { font-size: 80%; }
 }
 .content{
     padding: 5px;
@@ -313,14 +327,13 @@ table {
     box-sizing: border-box;
 }
 .footer {
-    height: 45vh;
     font-size: 12.5px;
     line-height: 25px;
     color: white;
     border-top: 5px double orangered;
     background-color: #192041;
     clear: both;
-    padding-top: 20px;
+    padding: 20px 0;
     display: flex;
 }
 .footer .title-column{
@@ -346,6 +359,13 @@ table {
     width: 30%;
     float: left;
     padding: 0 50px 0 25px;
+}
+.footer-end{
+    background: #040c13!important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    clear: both;
 }
 .bg_hd .container #wrap {
     display: inline-block;
@@ -403,9 +423,6 @@ table {
 .backtop{
     background: #040c13!important;
     color: white;
-    margin: 0 auto;
-    position: relative;
-    box-sizing: inherit;
     display: flex;
     justify-content: center;
     clear: both;
