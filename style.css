@@ -199,7 +199,7 @@ input[type=submit]:hover {
     div.thumb img {display: block; margin-left: auto; margin-right: auto; width: 70%;}
     body,.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{font-family: Roboto, Arial;font-size: 100%;}
     div.logo_header{display: block; margin-left: auto; margin-right: auto; width: 50%;}
-    div.logo_header .logo{display: block;vertical-align:auto;height:auto;margin-left: auto; margin-right: auto;width: 50%;}
+    div.logo_header .logo{display: block;vertical-align:auto;height:auto;margin-left: auto; margin-right: auto;width: 90%;}
     div.d-block {display: block!important;}
 }
 .content{
