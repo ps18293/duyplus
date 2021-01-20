@@ -185,9 +185,11 @@ input[type=submit]:hover {
     .topnav.responsive .dropdown .dropbtn {display: block;width: 100%;text-align: left;}
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
-    .column, input[type=submit] {width: 80%;margin-top: 0;}
+    .column, input[type=submit]{width: 80%;margin-top: 0;padding-top: 7px;}
+    input[type=submit]{text-align: center;padding: 10px;display: block; margin-right: auto; margin-left: auto;}
+    input[type=text], select, textarea{width: 98%;padding: 10px 0 10px 10px;}
     div.list-post{width: auto;margin-left: 0;text-align: center;}
-    div.list-post .title{padding-top: 10px;;}
+    div.list-post .title{padding-top: 10px;}
     .footer{display: none;text-align: center;}
     .hidden-mobile {display: none;}
     div.footer .column1{width: 100%;}
@@ -201,6 +203,12 @@ input[type=submit]:hover {
     div.logo_header{display: block; margin-left: auto; margin-right: auto; width: 50%;}
     div.logo_header .logo{display: block;vertical-align:auto;height:auto;margin-left: auto; margin-right: auto;width: 90%;}
     div.d-block {display: block!important;}
+    h4.entry-title-kn{text-align: center;}
+    h4.entry-title{padding-top: 7px;}
+    span.nganh-hoc{display: block;text-align: center;height:auto;margin-left: auto; margin-right: auto;width: 90%;float: none;}
+    div.row .column{padding: 0 0 10px 0;width: 100%;}
+    ul{padding-inline-start: 20px;font-size: 4.1vw;}
+    td{padding-top: 10px;font-size: 4vw;}
 }
 .content{
     padding: 5px;
